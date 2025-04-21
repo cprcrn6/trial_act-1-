@@ -17,7 +17,7 @@ class Program
 
     static void ShowNames(string n1, string mid)
     {
-    Console.WriteLine("\nHere are the names yoy entered:");
+    Console.WriteLine("\nHere are the names you entered:");
     Console.WriteLine("First Name: " + n1);
     Console.WriteLine("Middle Name: " + mid);
     }
