@@ -1,25 +1,15 @@
-﻿using System;
+﻿string surname;
 
-class Program
+Console.Write("Enter surname: ");
+name3 = Console.ReadLine();
+
+ShowNames(name1, middle, surname);
+
+
+static void ShowNames(string n1, string n2, string sn)
 {
-    static void Main(string[] args)
-    {
-        string name1, middle;
-
-        Console.Write("Enter First Name: ");
-        name1 = Console.ReadLine();
-
-        Console.Write("Enter Middle Name: ");
-        middle = Console.ReadLine();
-
-        ShowNames(name1, middle);
-    }
-
-    static void ShowNames(string n1, string mid)
-    {
-    Console.WriteLine("\nHere are the names you entered:");
+    Console.WriteLine("\nYou entered:");
     Console.WriteLine("First Name: " + n1);
     Console.WriteLine("Middle Name: " + mid);
-    }
-
+    Console.WriteLine("SurName: " + sn);
 }
