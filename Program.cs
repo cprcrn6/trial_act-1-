@@ -4,22 +4,22 @@ class Program
 {
     static void Main(string[] args)
     {
-        string name1, name2;
+        string name1, middle;
 
         Console.Write("Enter First Name: ");
         name1 = Console.ReadLine();
 
         Console.Write("Enter Middle Name: ");
-        name2 = Console.ReadLine();
+        middle = Console.ReadLine();
 
-        ShowNames(name1, name2);
+        ShowNames(name1, middle);
     }
 
-    static void ShowNames(string n1, string n2)
+    static void ShowNames(string n1, string mid)
     {
     Console.WriteLine("\nHere are the names yoy entered:");
     Console.WriteLine("First Name: " + n1);
-    Console.WriteLine("Middle Name: " + n2);
+    Console.WriteLine("Middle Name: " + mid);
     }
 
 }
