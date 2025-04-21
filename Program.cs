@@ -15,5 +15,11 @@ class Program
         ShowNames(name1, name2);
     }
 
+    static void ShowNames(string n1, string n2)
+    {
+    Console.WriteLine("\nYou entered:");
+    Console.WriteLine("Name 1: " + n1);
+    Console.WriteLine("Name 2: " + n2);
+    }
 
 }
